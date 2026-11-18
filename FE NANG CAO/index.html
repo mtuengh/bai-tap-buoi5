@@ -1,0 +1,179 @@
+
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bài tập FE Nâng Cao - Buổi 5</title>
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #fff1f7;
+      color: #67324d;
+    }
+
+    header {
+      background: linear-gradient(120deg, #c9367c, #f29bc3);
+      color: white;
+      padding: 65px 20px;
+      text-align: center;
+    }
+
+    header h1 {
+      font-size: 36px;
+      margin-bottom: 12px;
+    }
+
+    header p {
+      font-size: 16px;
+      line-height: 1.6;
+    }
+
+    main {
+      max-width: 950px;
+      margin: 45px auto;
+      padding: 0 20px;
+    }
+
+    h2 {
+      text-align: center;
+      margin-bottom: 30px;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 24px;
+    }
+
+    .card {
+      background: white;
+      padding: 28px;
+      border-radius: 18px;
+      border: 1px solid #f6cfe0;
+      box-shadow: 0 8px 24px #cf4c8b16;
+    }
+
+    .icon {
+      font-size: 38px;
+    }
+
+    .card h3 {
+      color: #bd3575;
+      margin-bottom: 12px;
+    }
+
+    .card p {
+      color: #8b6478;
+      line-height: 1.7;
+      min-height: 75px;
+    }
+
+    .button {
+      display: inline-block;
+      margin-top: 12px;
+      padding: 12px 18px;
+      border-radius: 10px;
+      background: #d74488;
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .button:hover {
+      background: #ae2d69;
+    }
+
+    .note {
+      font-size: 13px;
+      color: #8b6478;
+    }
+
+    footer {
+      text-align: center;
+      padding: 28px;
+      background: #fbe0ed;
+    }
+
+    footer a {
+      color: #b52e70;
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <h1>🌸 BÀI TẬP FE NÂNG CAO 🌸</h1>
+    <p>
+      Tổng hợp bài thực hành buổi 5<br>
+      Game Dino và Responsive Web Design
+    </p>
+  </header>
+
+  <main>
+    <h2>♡ Danh sách bài tập ♡</h2>
+
+    <div class="grid">
+
+      <div class="card">
+        <div class="icon">🦖</div>
+        <h3>Bài 1: Game Dino</h3>
+        <p>
+          Thực hành sử dụng Chrome DevTools
+          để thay đổi tốc độ chạy, độ cao nhảy
+          và kiểm tra hoạt động của trò chơi.
+        </p>
+
+        <a
+          class="button"
+          href="B%C3%A0i%20t%E1%BA%ADp%20tr%C3%AAn%20l%E1%BB%9Bp%20FE%20n%C3%A2ng%20cao.docx"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Xem báo cáo ↗
+        </a>
+
+        <p class="note">
+          Bài này có minh chứng trong file Word.
+        </p>
+      </div>
+
+      <div class="card">
+        <div class="icon">📱</div>
+        <h3>Bài 2: Responsive</h3>
+        <p>
+          Thực hành CSS Media Queries,
+          thay đổi bố cục theo kích thước
+          màn hình và sử dụng thẻ picture.
+        </p>
+
+        <a
+          class="button"
+          href="Bai1.html"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Xem bài thực hành ↗
+        </a>
+      </div>
+
+    </div>
+  </main>
+
+  <footer>
+    ♡ FE Nâng Cao - Buổi 5 ♡
+    <p>
+      <a href="https://github.com/mtuengh/bai-tap-buoi5">
+        Xem mã nguồn trên GitHub
+      </a>
+    </p>
+  </footer>
+
+</body>
+</html>
