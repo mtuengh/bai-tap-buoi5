@@ -4,7 +4,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Bài tập FE Nâng Cao - Buổi 5</title>
+  <title>Bài tập buổi 5 - FE Nâng Cao</title>
+
   <style>
     * {
       box-sizing: border-box;
@@ -14,94 +15,98 @@
       margin: 0;
       font-family: Arial, sans-serif;
       background: #fff1f7;
-      color: #67324d;
+      color: #63334c;
     }
 
     header {
-      background: linear-gradient(120deg, #c9367c, #f29bc3);
+      background: linear-gradient(120deg, #bd3478, #f29ac3);
       color: white;
-      padding: 65px 20px;
       text-align: center;
+      padding: 60px 20px;
     }
 
     header h1 {
-      font-size: 36px;
-      margin-bottom: 12px;
+      font-size: 38px;
+      margin: 12px 0;
     }
 
     header p {
       font-size: 16px;
-      line-height: 1.6;
+      line-height: 1.7;
     }
 
     main {
-      max-width: 950px;
-      margin: 45px auto;
-      padding: 0 20px;
+      max-width: 1000px;
+      margin: auto;
+      padding: 40px 20px;
+    }
+
+    .section {
+      background: white;
+      border-radius: 18px;
+      padding: 28px;
+      margin-bottom: 28px;
+      border: 1px solid #f4c9dc;
+      box-shadow: 0 5px 20px #d64a8912;
     }
 
     h2 {
-      text-align: center;
-      margin-bottom: 30px;
+      color: #b83274;
+      margin-top: 0;
     }
 
-    .grid {
+    p, li {
+      line-height: 1.8;
+    }
+
+    .cards {
       display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
-      gap: 24px;
+      grid-template-columns: repeat(
+        auto-fit,
+        minmax(260px, 1fr)
+      );
+      gap: 20px;
     }
 
     .card {
-      background: white;
-      padding: 28px;
-      border-radius: 18px;
-      border: 1px solid #f6cfe0;
-      box-shadow: 0 8px 24px #cf4c8b16;
-    }
-
-    .icon {
-      font-size: 38px;
+      background: #fff8fb;
+      border: 1px solid #f4c9dc;
+      border-radius: 14px;
+      padding: 24px;
     }
 
     .card h3 {
-      color: #bd3575;
-      margin-bottom: 12px;
-    }
-
-    .card p {
-      color: #8b6478;
-      line-height: 1.7;
-      min-height: 75px;
+      color: #bd3478;
     }
 
     .button {
       display: inline-block;
       margin-top: 12px;
       padding: 12px 18px;
-      border-radius: 10px;
       background: #d74488;
       color: white;
       text-decoration: none;
+      border-radius: 10px;
       font-weight: bold;
     }
 
     .button:hover {
-      background: #ae2d69;
+      background: #aa2b67;
     }
 
     .note {
+      color: #936c80;
       font-size: 13px;
-      color: #8b6478;
     }
 
     footer {
       text-align: center;
-      padding: 28px;
       background: #fbe0ed;
+      padding: 25px;
     }
 
     footer a {
-      color: #b52e70;
+      color: #ae2d69;
     }
   </style>
 </head>
@@ -111,59 +116,107 @@
   <header>
     <h1>🌸 BÀI TẬP FE NÂNG CAO 🌸</h1>
     <p>
-      Tổng hợp bài thực hành buổi 5<br>
-      Game Dino và Responsive Web Design
+      Buổi 5 - Tổng hợp nội dung học và bài thực hành
+      <br>
+      Game Dino & Responsive Web Design
     </p>
   </header>
 
   <main>
-    <h2>♡ Danh sách bài tập ♡</h2>
 
-    <div class="grid">
+    <section class="section">
+      <h2>📚 Nội dung học hôm nay</h2>
 
-      <div class="card">
-        <div class="icon">🦖</div>
-        <h3>Bài 1: Game Dino</h3>
-        <p>
-          Thực hành sử dụng Chrome DevTools
-          để thay đổi tốc độ chạy, độ cao nhảy
-          và kiểm tra hoạt động của trò chơi.
-        </p>
+      <p>
+        Trong buổi học này, em được thực hành
+        sử dụng công cụ Chrome DevTools để
+        kiểm tra và thay đổi hoạt động của
+        một trò chơi trên trình duyệt.
+      </p>
 
-        <a
-          class="button"
-          href="B%C3%A0i%20t%E1%BA%ADp%20tr%C3%AAn%20l%E1%BB%9Bp%20FE%20n%C3%A2ng%20cao.docx"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Xem báo cáo ↗
-        </a>
+      <p>
+        Bên cạnh đó, em tìm hiểu về Responsive
+        Web Design, cách thiết kế giao diện
+        có thể tự điều chỉnh theo kích thước
+        màn hình máy tính, máy tính bảng
+        và điện thoại.
+      </p>
 
-        <p class="note">
-          Bài này có minh chứng trong file Word.
-        </p>
+      <h3>Kiến thức đã học:</h3>
+
+      <ul>
+        <li>Sử dụng Chrome DevTools.</li>
+        <li>Kiểm tra và chỉnh sửa JavaScript.</li>
+        <li>Thay đổi tốc độ và độ nhảy của Game Dino.</li>
+        <li>Sử dụng CSS Media Queries.</li>
+        <li>Thiết kế bố cục responsive.</li>
+        <li>Sử dụng thẻ picture để đổi hình ảnh.</li>
+      </ul>
+    </section>
+
+    <section class="section">
+      <h2>💻 Danh sách bài tập thực hành</h2>
+
+      <div class="cards">
+
+        <div class="card">
+          <h3>🦖 Bài 1: Game Dino</h3>
+
+          <p>
+            Thực hành thay đổi tốc độ chạy
+            và độ cao nhảy của khủng long
+            bằng Chrome DevTools.
+          </p>
+
+          <a
+            class="button"
+            href="FE%20NANG%20CAO/B%C3%A0i%20t%E1%BA%ADp%20tr%C3%AAn%20l%E1%BB%9Bp%20FE%20n%C3%A2ng%20cao.docx"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Xem báo cáo bài 1 ↗
+          </a>
+
+          <p class="note">
+            Minh chứng bài thực hành nằm trong file Word.
+          </p>
+        </div>
+
+        <div class="card">
+          <h3>📱 Bài 2: Responsive</h3>
+
+          <p>
+            Tạo bố cục hai phần, thay đổi
+            kích thước theo màn hình
+            và hiển thị hình ảnh phù hợp.
+          </p>
+
+          <a
+            class="button"
+            href="FE%20NANG%20CAO/Bai1.html"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Xem bài Responsive ↗
+          </a>
+        </div>
+
       </div>
+    </section>
 
-      <div class="card">
-        <div class="icon">📱</div>
-        <h3>Bài 2: Responsive</h3>
-        <p>
-          Thực hành CSS Media Queries,
-          thay đổi bố cục theo kích thước
-          màn hình và sử dụng thẻ picture.
-        </p>
+    <section class="section">
+      <h2>🎯 Kết quả học tập</h2>
 
-        <a
-          class="button"
-          href="Bai1.html"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Xem bài thực hành ↗
-        </a>
-      </div>
+      <p>
+        Qua buổi học, em hiểu được cách sử dụng
+        Chrome DevTools để kiểm tra và thay đổi
+        hành vi JavaScript trên trình duyệt.
+        Đồng thời, em biết áp dụng CSS Media
+        Queries để xây dựng trang web phù hợp
+        với nhiều kích thước màn hình.
+      </p>
+    </section>
 
-    </div>
   </main>
 
   <footer>
